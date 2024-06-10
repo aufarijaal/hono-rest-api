@@ -1,7 +1,8 @@
 {
   "type": "module", 
   "scripts": {
-    "start": "vercel dev",
+    "dev:vercel": "vercel dev",
+    "dev": "node api/index.js",
     "deploy": "vercel"
   },
   "dependencies": {
